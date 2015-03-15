@@ -10,10 +10,10 @@
 <body>
 <form action="ServletBanque"  method="post">
 Code : <input type="text" name="code">
-Montant : <input type="text" name="mnt"><br/>
+Montant : <input type="text" name="mnt"><br/><br/>
 <input type="submit" name="action" value="Verser">
-<input type="submit" name="action" value="Retirer">
-<table border="1">
+<input type="submit" name="action" value="Retirer"><br/><br/>
+<table border="1" width="70%">
 <tr>
 <th>CODE</th><th>DATE CREATION</th><th>SOLDE</th>
 </tr>
